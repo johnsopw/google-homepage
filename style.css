@@ -1,0 +1,104 @@
+.top-navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+  }
+  
+  li.top-left{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.top-right{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  input{
+    height: 25px;
+    width: 30em;
+    border: 8px solid #D3D3D3;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    margin: 10px 0px 10px;
+    
+  }
+  
+  #waffle {
+    width: 20px;
+    height: 20px;
+  }
+  #profile-image{
+    width: 40px;
+    height: 40px;
+  }
+  
+   .center-div {
+     border-radius: 1em;
+     padding: 1em;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .bottom-nav{
+    background-color: #F0F0F0;
+    position:fixed;
+    bottom:0;
+    width:100%;
+  }
+  
+  li.bottom-left{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+  
+  li.bottom-right{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .search-box {
+    position:relative;
+  }
+  
+  .search-box .magnifier{
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:30%;
+    left:1%;
+  }
+  
+  .search-box .microphone {
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:30%;
+    right:1%;
+  }
